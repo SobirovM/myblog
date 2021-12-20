@@ -1,0 +1,39 @@
+@font-face {
+    font-family: myfont;
+    src: url(./font/SeratUltra-1GE24.ttf);
+    
+}
+
+
+.header {
+
+  display: flex;
+  margin-top: 45px;
+  justify-content: space-between;
+  text-transform: uppercase; 
+  text-decoration: none; 
+}
+.header .header-left a{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    margin-left: 35px;
+    text-decoration: none;
+    
+}
+.header .header-center a{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    margin-right: 235px;
+    text-decoration: none;
+    font-family: myfont;
+    
+}
+.header .header-right img{
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    text-decoration: none;
+    
+}
